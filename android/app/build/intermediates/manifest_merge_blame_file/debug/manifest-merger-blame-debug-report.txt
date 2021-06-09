@@ -1,0 +1,308 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rnfirebase"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.54.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.54.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/a0953a6941c1135d57623c7d643d23a3/flipper-0.54.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:26:22-79
+17
+18    <application
+18-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:6:5-35:19
+19        android:name="com.rnfirebase.MainApplication"
+19-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/6466522822c9f31c5107b8fc2277998a/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:theme="@style/AppTheme"
+26-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:12:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/debug/AndroidManifest.xml:7:18-53
+28        <activity
+28-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:13:7-24:18
+29            android:name="com.rnfirebase.MainActivity"
+29-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:14:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:16:9-86
+31            android:exported="true"
+31-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:18:9-32
+32            android:label="@string/app_name"
+32-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:15:9-41
+33            android:launchMode="singleTask"
+33-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:17:9-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:19:9-51
+35
+36            <!--
+37        <intent-filter>
+38            <action android:name="android.intent.action.MAIN" />
+39            <category android:name="android.intent.category.LAUNCHER" />
+40        </intent-filter>
+41            -->
+42        </activity>
+43        <activity
+43-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:25:7-33:18
+44            android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"
+44-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:26:9-69
+45            android:launchMode="singleTask"
+45-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:28:9-40
+46            android:theme="@style/BootTheme" >
+46-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:27:9-41
+47            <intent-filter>
+47-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:29:9-32:25
+48                <action android:name="android.intent.action.MAIN" />
+48-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:30:11-63
+48-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:30:19-60
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:31:11-71
+50-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:31:21-68
+51            </intent-filter>
+52        </activity>
+53        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+53-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:34:7-84
+53-->/home/money.jain/Desktop/react-native-firebase-push-notification/android/app/src/main/AndroidManifest.xml:34:17-81
+54
+55        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+55-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-111
+55-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-108
+56        <service
+56-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-23:19
+57            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+57-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-95
+58            android:exported="false" >
+58-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-37
+59            <intent-filter>
+59-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+60                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+60-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+60-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+61            </intent-filter>
+62        </service>
+63
+64        <receiver
+64-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-32:20
+65            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+65-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-96
+66            android:exported="true"
+66-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:13-36
+67            android:permission="com.google.android.c2dm.permission.SEND" >
+67-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-73
+68            <intent-filter>
+68-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+69                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+69-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+69-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+70            </intent-filter>
+71        </receiver>
+72
+73        <meta-data
+73-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-36:36
+74            android:name="firebase_messaging_auto_init_enabled"
+74-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:13-64
+75            android:value="true" />
+75-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-33
+76        <meta-data
+76-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-39:32
+77            android:name="com.google.firebase.messaging.default_notification_channel_id"
+77-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-89
+78            android:value="" />
+78-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-29
+79        <meta-data
+79-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:9-42:47
+80            android:name="com.google.firebase.messaging.default_notification_color"
+80-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-84
+81            android:resource="@color/white" />
+81-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:13-44
+82        <!--
+83             FirebaseMessagingService performs security checks at runtime,
+84             but set to not exported to explicitly avoid allowing another app to call it.
+85        -->
+86        <service
+86-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+87            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+87-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+90            <intent-filter android:priority="-500" >
+90-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:29
+91                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+91-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-78
+91-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:25-75
+92            </intent-filter>
+93        </service>
+94        <service
+94-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
+95            android:name="com.google.firebase.components.ComponentDiscoveryService"
+95-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+98            <meta-data
+98-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+99                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+99-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-messaging:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/cb79e2f08fbf028decb5dcfc729a5671/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-datatransport:17.0.10] /home/money.jain/.gradle/caches/transforms-2/files-2.1/f5cbade612140108f54057bae2ecff1c/firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+102                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+102-->[com.google.firebase:firebase-datatransport:17.0.10] /home/money.jain/.gradle/caches/transforms-2/files-2.1/f5cbade612140108f54057bae2ecff1c/firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-datatransport:17.0.10] /home/money.jain/.gradle/caches/transforms-2/files-2.1/f5cbade612140108f54057bae2ecff1c/firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+105                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+105-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-installations:16.3.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/7c7197f4f135048fa4cb5d72655163fc/firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+108                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+108-->[com.google.firebase:firebase-installations:16.3.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/7c7197f4f135048fa4cb5d72655163fc/firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-installations:16.3.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/7c7197f4f135048fa4cb5d72655163fc/firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+110            <!--
+111                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+112                clients to use it as well, by defining this registrar in their own core/common library.
+113            -->
+114            <meta-data
+114-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+115                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+115-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+117        </service>
+118        <service
+118-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e9f2188f40fd72be59fff2b9dc712cc8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+119            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+119-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e9f2188f40fd72be59fff2b9dc712cc8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+120            android:exported="false" >
+120-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e9f2188f40fd72be59fff2b9dc712cc8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+121            <meta-data
+121-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e9f2188f40fd72be59fff2b9dc712cc8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+122                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+122-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e9f2188f40fd72be59fff2b9dc712cc8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+123                android:value="cct" />
+123-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e9f2188f40fd72be59fff2b9dc712cc8/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+124        </service>
+125        <service
+125-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/6923949613c621f0d4b4622f1c3d9d83/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+126-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/6923949613c621f0d4b4622f1c3d9d83/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+127            android:exported="false"
+127-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/6923949613c621f0d4b4622f1c3d9d83/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" >
+128-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/6923949613c621f0d4b4622f1c3d9d83/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+129        </service>
+130
+131        <receiver
+131-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/6923949613c621f0d4b4622f1c3d9d83/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+132-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/6923949613c621f0d4b4622f1c3d9d83/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+133            android:exported="false" />
+133-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/money.jain/.gradle/caches/transforms-2/files-2.1/6923949613c621f0d4b4622f1c3d9d83/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+134
+135        <activity
+135-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+136            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+136-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+137            android:excludeFromRecents="true"
+137-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+140        <!--
+141            Service handling Google Sign-In user revocation. For apps that do not integrate with
+142            Google Sign-In, this service will never be started.
+143        -->
+144        <service
+144-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+145            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+145-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+146            android:exported="true"
+146-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+147            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+147-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+148            android:visibleToInstantApps="true" />
+148-->[com.google.android.gms:play-services-auth:19.0.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/33989af206de8df2bc991bb8c7a4e1ea/play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+149
+150        <receiver
+150-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+151            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+151-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+152            android:exported="true"
+152-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+153            android:permission="com.google.android.c2dm.permission.SEND" >
+153-->[com.google.firebase:firebase-iid:21.0.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/ca8976134810ae7a66088b4d0258d154/firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+154            <intent-filter>
+154-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-31:29
+155                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+155-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:17-81
+155-->[:react-native-firebase_messaging] /home/money.jain/Desktop/react-native-firebase-push-notification/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:25-78
+156            </intent-filter>
+157        </receiver>
+158
+159        <activity
+159-->[com.google.android.gms:play-services-base:17.1.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/d3caf54114e86177d18237a7364d1766/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+160            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+160-->[com.google.android.gms:play-services-base:17.1.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/d3caf54114e86177d18237a7364d1766/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-base:17.1.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/d3caf54114e86177d18237a7364d1766/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+162            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+162-->[com.google.android.gms:play-services-base:17.1.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/d3caf54114e86177d18237a7364d1766/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+163
+164        <provider
+164-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+165            android:name="com.google.firebase.provider.FirebaseInitProvider"
+165-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+166            android:authorities="com.rnfirebase.firebaseinitprovider"
+166-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+167            android:directBootAware="true"
+167-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+168            android:exported="false"
+168-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+169            android:initOrder="100" />
+169-->[com.google.firebase:firebase-common:19.5.0] /home/money.jain/.gradle/caches/transforms-2/files-2.1/79eb822a3937de8f661666e6fec055b5/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+170
+171        <meta-data
+171-->[com.google.android.gms:play-services-basement:17.1.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e14fbbb41b58dbe7168709629933d901/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+172            android:name="com.google.android.gms.version"
+172-->[com.google.android.gms:play-services-basement:17.1.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e14fbbb41b58dbe7168709629933d901/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+173            android:value="@integer/google_play_services_version" />
+173-->[com.google.android.gms:play-services-basement:17.1.1] /home/money.jain/.gradle/caches/transforms-2/files-2.1/e14fbbb41b58dbe7168709629933d901/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+174    </application>
+175
+176</manifest>
